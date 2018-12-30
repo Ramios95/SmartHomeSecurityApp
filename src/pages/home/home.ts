@@ -96,7 +96,7 @@ export class HomePage {
       if (localStorage.getItem("userData")) {
         that._service.RefreshToken().subscribe(d => {});
       }
-    }, 7000);
+    }, 900000);
   }
 
   // to go account page

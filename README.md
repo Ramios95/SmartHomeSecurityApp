@@ -25,7 +25,7 @@ npm install
 
 cd ..
 
-npm run dev
+ionic serve --lab
 
 ```
 
@@ -38,14 +38,14 @@ Run "npm start"
 - - Ionic Mobile app Side (FrontEnd):<br/> 
 
 
-For android test :
+For android test , instead of "ionic serve --lab" :
 
  ```
-run "cd client & ionic cordova run andoid" 
+run "ionic cordova run andoid" 
 ```
 For iOS test :
 ``` 
-run "cd client & ionic cordova run ios"
+run "ionic cordova run ios"
 ```
 
   
@@ -59,9 +59,6 @@ run "cd client & ionic cordova run ios"
 
 - Install MongoDB and start it.
 
-  
-  
-  
 
 # SHC Mobile App Screenshot:<br/>
 
