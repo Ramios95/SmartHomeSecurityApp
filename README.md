@@ -75,9 +75,9 @@ run "ionic cordova run ios"
 
 **Notes**
 
-- You will have both HTTP and HTTPS(TSL) communication running on port 3000 and port 8443 but keep in mind that every request coming on HTTP port 3000 will be redirected to HTTPS port 8443 <br/>
+- You will have both HTTP and HTTPS(TLS) communication running on port 3000 and port 8443 but keep in mind that every request coming on HTTP port 3000 will be redirected to HTTPS port 8443 <br/>
 - In order to test the app ,You need to register at first and make sure you uses "home_1" as your Home code in order to subscribe to the same home code as node-red provides.<br/>
-- If encountred any issue with packages ,run "npm audit fix -f" on the root directory and in the server directory as well. ) 
+- If encountred any issue with packages ,run "npm audit fix -f" on the root directory and in the server directory as well.
 
   
 
